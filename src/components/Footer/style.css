@@ -1,0 +1,9 @@
+.filter {
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+}
+.filter.selected {
+  border: 1px solid rgba(175, 47, 47, 0.2);
+  border-radius: 3px;
+}

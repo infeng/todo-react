@@ -1,0 +1,22 @@
+#add-todo {
+  padding: 5px 0;
+}
+#add-todo > input {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  width: 80%;
+  font-size: 1.3rem;
+  vertical-align: middle;
+}
+#add-todo > input:focus {
+  outline: none;
+}
+#add-todo > button {
+  width: 20%;
+  border: none;
+  background-color: #d9534f;
+  height: 30px;
+  color: white;
+  font-size: 1.3rem;
+  vertical-align: middle;
+}

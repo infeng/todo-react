@@ -1,0 +1,15 @@
+ul, li {
+  list-style: none;
+  text-align: left;
+}
+#todo-list {
+  margin-bottom: 20px;
+}
+#todo-list {
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}
+.no-todo-list {
+  text-align: center;
+  color: #d9d9d9;
+}

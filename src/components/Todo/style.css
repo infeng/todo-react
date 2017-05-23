@@ -1,0 +1,12 @@
+.todo {
+  padding: 10px;
+  color: black;
+  -webkit-transition: color .3s ease;
+  transition: color .3s ease;   
+}
+.todo.notlast {
+  border-bottom: 1px solid #ededed;
+}
+.todo.completed {
+  color: #d9d9d9;
+}
