@@ -3,10 +3,13 @@
   color: black;
   -webkit-transition: color .3s ease;
   transition: color .3s ease;   
+  cursor: pointer;
 }
 .todo.notlast {
   border-bottom: 1px solid #ededed;
 }
 .todo.completed {
   color: #d9d9d9;
+  cursor: default;
+  text-decoration: line-through;
 }
