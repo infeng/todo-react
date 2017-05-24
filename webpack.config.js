@@ -37,6 +37,10 @@ module.exports = function (webpackConfig) {
         let restLoader = loader.loader.split('{"remove":true}!')[1];
         loader.loader = `style-loader!${restLoader}`;
       }
+
+      if (loader.test.toString().indexOf('tsx') >= 0 || loader.test.toString().indexOf('js') >= 0) {
+        loader.loaders = ['react-hot'].concat(loader.loaders);
+      }      
     }
   });
 
