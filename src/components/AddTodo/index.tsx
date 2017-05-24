@@ -15,6 +15,9 @@ export default class AddTodo extends React.Component<Props, any> {
   handleClick(e) {
     const node = this.refs['input'] as HTMLInputElement;
     const text: string = node.value.trim();
+    if (!text) {
+      return;
+    }
     this.props.onAddClick(text);
     node.value = '';
   }
