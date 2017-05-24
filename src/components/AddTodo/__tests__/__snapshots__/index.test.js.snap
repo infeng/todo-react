@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddTodo render AddTodo correctly 1`] = `
+<div
+  id="add-todo"
+>
+  <input
+    placeholder="What needs to be done?"
+    type="text"
+  />
+  <button>
+    Add
+  </button>
+</div>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer render Footer correctly 1`] = `
+<div>
+  <button
+    class="filter"
+  >
+    All
+  </button>
+   
+  <button
+    class="filter"
+  >
+    Completed
+  </button>
+   
+  <button
+    class="filter"
+  >
+    Active
+  </button>
+</div>
+`;

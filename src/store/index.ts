@@ -1,9 +1,5 @@
-import { createStore, compose, combineReducers } from 'redux';
-import appReducer from '../reducers';
-
-const rootReducer = combineReducers({
-  app: appReducer,
-});
+import { createStore, compose } from 'redux';
+import rootReducer from '../reducers';
 
 declare const window: any;
 const enhancer = compose(

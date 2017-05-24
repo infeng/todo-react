@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header render Header correctly 1`] = `
+<header>
+  <h1>
+    Todos
+  </h1>
+</header>
+`;

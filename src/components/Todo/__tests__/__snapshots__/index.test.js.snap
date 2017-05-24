@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todo render Todo correctly 1`] = `
+<li
+  class="todo notlast"
+>
+  hello world
+</li>
+`;

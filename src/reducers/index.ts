@@ -1,6 +1,7 @@
 import { handleActions } from 'redux-actions';
 import * as filters from '../constants/filters';
 import * as actionTypes from '../constants/actionTypes';
+import { combineReducers } from 'redux';
 
 export interface TodoModel {
   text: string;
@@ -12,7 +13,7 @@ export interface TodoState {
   filter: filters.FilterTypes;
 }
 
-export default handleActions<TodoState, any>({
+export const appReducer = handleActions<TodoState, any>({
   [actionTypes.ADD_TODO](state, action) {
     return {
       ...state,
@@ -43,3 +44,9 @@ export default handleActions<TodoState, any>({
   todos: [],
   filter: filters.SHOW_ALL,
 });
+
+const rootReducer = combineReducers({
+  app: appReducer,
+});
+
+export default rootReducer;

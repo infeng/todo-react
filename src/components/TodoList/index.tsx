@@ -14,7 +14,7 @@ interface Props {
   todos: TodoModel[];
 }
 
-export class TodoList extends React.Component<Props, any> {
+export default class TodoList extends React.Component<Props, any> {
   render() {
     let todosNode: any = this.props.todos.map((todo, index) => {
       return (

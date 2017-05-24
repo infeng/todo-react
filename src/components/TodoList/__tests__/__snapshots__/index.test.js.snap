@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer render Footer correctly 1`] = `
+<ul
+  id="todo-list"
+>
+  <li
+    class="todo notlast"
+  >
+    hello world
+  </li>
+  <li
+    class="todo"
+  >
+    233
+  </li>
+</ul>
+`;
+
+exports[`Footer render correctly when no todos 1`] = `
+<ul
+  id="todo-list"
+>
+  <p
+    class="todo no-todo-list"
+  >
+    Nothing
+  </p>
+</ul>
+`;
